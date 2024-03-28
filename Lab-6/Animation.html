@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Animation Proparty</title>
+    <style>
+        p {
+            animation-name: ani;
+            height: 100px;
+            width: 100px;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            animation-duration: 6s;
+            background-color: hotpink;
+        }
+
+        /* @keyframes ani{
+                from{
+                    margin-left: 100%;
+                    width: 100%;
+                }
+                to{
+                    margin-left: 0%;
+                    width: 0%;
+                }
+            } */
+        @keyframes ani {
+            0% {
+                background-color: yellow;
+                margin-left: 0%;
+                margin-top: 0vh;
+            }
+
+            25% {
+                background-color: red;
+                margin-left: 92%;
+                margin-top: 0vh;
+
+            }
+            50%{background-color: blue;
+                margin-left: 92%;
+                margin-top: 90vh;
+
+            }
+
+            75% {
+                background-color:gray;
+                margin-left: 0%;
+                margin-top: 90vh;
+            }
+
+            100% {
+                background-color: green;
+                margin-left: 0%;
+                margin-top: 0vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hello World</p>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+body{
+	background-color: whitesmoke;
+}
+th{
+	background-color: white;
+	border-bottom: medium;
+}
+table{
+	
+	text-align: center;
+	height: 500px;
+	width: 50%;
+
+}
+td{
+
+	border-bottom: medium;
+
+}
+.p1{
+	background-color: yellow;
+}
+
+.p2{
+	background-color: orangered;
+}
+
+td{
+	background-color: mediumspringgreen;
+}
+
+.p3{
+	background-color: white;
+}
